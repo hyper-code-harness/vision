@@ -1,7 +1,22 @@
-{"name":"vision","private":true,"type":"module","procs":{
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/vision"
+  },
+  "procs": {
     "configuration": {
       "settings": [
         "vision.lmstudioUrl",
         "vision.qwenModel"
       ]
-    },"src":"src","label":"Image OCR","icon":"ph-eye","optional":true,"description":"Extract text from images locally with Apple Vision or Qwen3-VL through LM Studio."}}
+    },
+    "src": "src",
+    "label": "Image OCR",
+    "icon": "ph-eye",
+    "optional": true,
+    "description": "Extract text from images locally with Apple Vision or Qwen3-VL through LM Studio."
+  }
+}
